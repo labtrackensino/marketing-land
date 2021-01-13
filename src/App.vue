@@ -1,28 +1,57 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <b-container class="content-container">
+      <RowFullContent />
+      <RowContent />
+      <RowContent />
+      <RowContent />
+      <RowContent />
+      <RowContent />
+      <RowContent />
+      <RowContent />
+      <RowContent />
+    </b-container>
+    <BarraInferior />
+    <ExitIntent v-show="isVisible" @closePopUp="close" @showPopUp="show" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BarraInferior from '@/components/BarraInferior'
+import RowContent from '@/components/RowContent'
+import RowFullContent from '@/components/RowFullContent'
+import ExitIntent from '@/components/ExitIntent'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BarraInferior,
+    RowContent,
+    ExitIntent,
+    RowFullContent
+  },
+  data() {
+    return {
+      isVisible: false
+    };
+  },
+  methods: {
+    show() {
+      this.isVisible = true;
+    },
+    close() {
+      this.isVisible = false;
+    }
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import 'node_modules/bootstrap/scss/bootstrap.scss';
+  @import 'node_modules/bootstrap-vue/src/index.scss';
+
+  .content-container {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+  }
 </style>
