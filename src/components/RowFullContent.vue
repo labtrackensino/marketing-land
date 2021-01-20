@@ -22,7 +22,7 @@ export default {
 <style lang="scss">
 .full-height {
   height: 95vh;
-  background-image: url('/img/back.jpg');
+  background-image: url('img/back.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
