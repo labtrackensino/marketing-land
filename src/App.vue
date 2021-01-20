@@ -3,6 +3,7 @@
     <BarraSuperior />
     <div is="RowFullContent" />
     <RowContentText class="px-md-5"/>
+    <EmbedContent class="px-md-5" />
     <BarraInferior />
     <b-container class="px-md-5">
       <b-row class="px-md-5">
@@ -18,6 +19,7 @@ import BarraInferior from '@/components/BarraInferior'
 import BarraSuperior from '@/components/BarraSuperior'
 import RowContentText from '@/components/RowContentText'
 import RowFullContent from '@/components/RowFullContent'
+import EmbedContent from '@/components/EmbedContent'
 // import ExitIntent from '@/components/ExitIntent'
 
 export default {
@@ -27,6 +29,7 @@ export default {
     BarraSuperior,
     RowContentText,
     // ExitIntent,
+    EmbedContent,
     RowFullContent
   },
   data() {
