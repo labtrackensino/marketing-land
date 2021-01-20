@@ -1,5 +1,5 @@
 <template>
-  <b-container class="full-height" fluid>
+  <b-container :style="`background-image: url(${require('@/assets/img/back.jpg')})`" class="full-height" fluid>
     <b-row class="d-flex h-md-75 h-50 align-items-center">
       <b-col>
       </b-col>
@@ -22,7 +22,6 @@ export default {
 <style lang="scss">
 .full-height {
   height: 95vh;
-  background-image: url('img/back.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
