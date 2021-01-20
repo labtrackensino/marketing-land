@@ -1,33 +1,32 @@
 <template>
   <div id="app">
-    <b-container class="content-container">
-      <RowFullContent />
-      <RowContent />
-      <RowContent />
-      <RowContent />
-      <RowContent />
-      <RowContent />
-      <RowContent />
-      <RowContent />
-      <RowContent />
-    </b-container>
+    <BarraSuperior />
+    <div is="RowFullContent" />
+    <RowContentText class="px-md-5"/>
     <BarraInferior />
-    <ExitIntent v-show="isVisible" @closePopUp="close" @showPopUp="show" />
+    <b-container class="px-md-5">
+      <b-row class="px-md-5">
+        <b-col md class="border-top content-bottom"></b-col>
+      </b-row>
+    </b-container>
+    <!-- <ExitIntent v-show="isVisible" @closePopUp="close" @showPopUp="show" /> -->
   </div>
 </template>
 
 <script>
 import BarraInferior from '@/components/BarraInferior'
-import RowContent from '@/components/RowContent'
+import BarraSuperior from '@/components/BarraSuperior'
+import RowContentText from '@/components/RowContentText'
 import RowFullContent from '@/components/RowFullContent'
-import ExitIntent from '@/components/ExitIntent'
+// import ExitIntent from '@/components/ExitIntent'
 
 export default {
   name: 'App',
   components: {
     BarraInferior,
-    RowContent,
-    ExitIntent,
+    BarraSuperior,
+    RowContentText,
+    // ExitIntent,
     RowFullContent
   },
   data() {
@@ -50,8 +49,14 @@ export default {
   @import 'node_modules/bootstrap/scss/bootstrap.scss';
   @import 'node_modules/bootstrap-vue/src/index.scss';
 
-  .content-container {
-    margin-top: 2rem;
-    margin-bottom: 6rem;
+  body.labtrack {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+  }
+  .font-size-2x {
+    font-size: 2em;
+  }
+  .content-bottom {
+    margin-bottom: 12rem;
   }
 </style>

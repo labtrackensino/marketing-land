@@ -1,18 +1,30 @@
 <template>
-  <b-row class="full-height d-flex align-items-center">
-    <b-col>
-      <b-img fluid src="https://rockcontent.com/wp-content/uploads/2020/02/teste-de-lideran%C3%A7a.png" />
-    </b-col>
-  </b-row>
+  <b-container class="full-height" fluid>
+    <b-row class="d-flex h-md-75 h-50 align-items-center">
+      <b-col>
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col>
+        <ScrollDown />
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
-export default {
+import ScrollDown from '@/components/ScrollDown.vue'
 
+export default {
+  components: { ScrollDown }
 }
 </script>
 <style lang="scss">
 .full-height {
-  height: 90vh;
+  height: 95vh;
+  background-image: url('/img/back.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 </style>
