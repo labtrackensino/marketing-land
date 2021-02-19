@@ -146,7 +146,7 @@
     <b-container class="p-5">
       <div>Imperdível né?</div>
       <div>Então, posso contar com sua presença?</div>
-      <b-embed type="iframe" :aspect="aspect" src="https://www.lp.labtrack.com.br/teste/embed/q/68"></b-embed>
+      <b-embed type="iframe" :aspect="aspect" src="https://www.lp.labtrack.com.br/teste/embed/q/70"></b-embed>
     </b-container>
   </div>
   <div class="bg-white text-dark image-right">
