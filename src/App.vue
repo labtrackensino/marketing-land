@@ -91,7 +91,7 @@
     <b-container class="py-4">
       <p>Mas sabia que não precisa ser tão difícil assim? Sabia que com um pouquinho de conhecimento e prática, <b>sem gastar nada</b>, você pode <b>lucrar muito online</b>?</p>
       <p>Eo melhor, sabia que eu posso te ajudar com isso, de uma maneira super simples?</p>
-      <p>Se você quer bater um papo comigo, descobrir maneiras de alavancar o seu negócio e marcar presença no mundo digital, vem comigo para o evento <b>Impulsione seu negócio em 4 passos</b>, <a class="text-danger" href="#">inscreva-se aqui!</a></p>
+      <p>Se você quer bater um papo comigo, descobrir maneiras de alavancar o seu negócio e marcar presença no mundo digital, vem comigo para o evento <b>Impulsione seu negócio em 4 passos</b>, <a class="text-danger" href="#inscricao">inscreva-se aqui!</a></p>
       <p>Mas aproveitando que está aqui, quero te conhecer melhor. Vai, me conta...</p>
       <b-embed type="iframe" :aspect="aspect" src="https://www.lp.labtrack.com.br/teste/embed/q/67"></b-embed>
     </b-container>
@@ -142,7 +142,7 @@
       </ul>
     </b-container>
   </div>
-  <div class="bg-white text-dark">
+  <div id="inscricao" class="bg-white text-dark">
     <b-container class="p-5">
       <div>Imperdível né?</div>
       <div>Então, posso contar com sua presença?</div>
