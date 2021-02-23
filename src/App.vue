@@ -9,7 +9,7 @@
       </b-row>
       <b-row>
         <b-col md="7" class="ml-auto text-right my-5">
-          <h1>Comece hoje a impulsionar seu <span class="text-danger">negócio em 4 passos</span></h1>
+          <h1 class="font-weight-bolder">Comece hoje a impulsionar seu <span class="text-danger">negócio em 4 passos</span></h1>
         </b-col>
       </b-row>
       <b-row>
@@ -56,8 +56,8 @@
     </VueSlickCarousel>
   </div>
   <div class="text bg-white text-dark">
-    <b-container class="py-4">
-      <p><b>2020</b> foi um ano desafiador para todos nós, muitros perderam seus empregos ou tiveram que se virar para manter o seu negócio em pé.</p>
+    <b-container class="py-5">
+      <p><b>2020</b> foi um ano desafiador para todos nós, muitos perderam seus empregos ou tiveram que se virar para manter o seu negócio em pé.</p>
       <p>Com o isolamento social, tivemos que migrar forçadamente para o <b>mundo digital</b>, e até quem não estava acostumado, foi obrigado a se adaptar ao ambiente online.</p>
       <p><b>Vender online</b> então? As redes sociais se tornaram um verdadeiro leilão de ofertas.</p>
       <p>E como é difícil competir nesse mar de tubarões, não é mesmo?! Quem já se dava bem vendendo online encheu o bolso, mas os peixinhos pequenos como nós tivemos que nos "virar nos 30" para manter nosso negócio rodando.</p>
@@ -88,9 +88,9 @@
     </b-container>
   </div>
   <div class="text bg-white text-dark">
-    <b-container class="py-4">
+    <b-container class="py-5">
       <p>Mas sabia que não precisa ser tão difícil assim? Sabia que com um pouquinho de conhecimento e prática, <b>sem gastar nada</b>, você pode <b>lucrar muito online</b>?</p>
-      <p>Eo melhor, sabia que eu posso te ajudar com isso, de uma maneira super simples?</p>
+      <p>E o melhor, sabia que eu posso te ajudar com isso de uma maneira super simples?</p>
       <p>Se você quer bater um papo comigo, descobrir maneiras de alavancar o seu negócio e marcar presença no mundo digital, vem comigo para o evento <b>Impulsione seu negócio em 4 passos</b>, <a class="text-danger" href="#inscricao">inscreva-se aqui!</a></p>
       <p>Mas aproveitando que está aqui, quero te conhecer melhor. Vai, me conta...</p>
       <b-embed type="iframe" :aspect="aspect" src="https://www.lp.labtrack.com.br/teste/embed/q/67"></b-embed>
@@ -104,7 +104,7 @@
           <p>Não sabe do que eu tô falando? Volta ali no questionário, você só precisa responder algumas perguntinhas rápidas, e no final vai receber várias dicas personalizadas com o resultado do seu diagnóstico.</p>
         </b-col>
         <b-col class="text-center" md="4">
-          <b-img fluid :src="require('@/assets/img/im02.png')" />
+          <b-img :src="require('@/assets/img/im02.png')" />
         </b-col>
       </b-row>
     </b-container>
@@ -112,8 +112,8 @@
   <div class="image-left bg-white text-dark">
     <b-container class="font-italic text-right py-5">
       <b-row>
-        <b-col md="4">
-          <b-img fluid :src="require('@/assets/img/im03.png')" />
+        <b-col class="text-center" md="4">
+          <b-img :src="require('@/assets/img/im03.png')" />
         </b-col>
         <b-col>
           <div class="citacao">
@@ -135,8 +135,8 @@
         <li><span>Análise de precificação</span></li>
         <li><span>Canais e ferramentas digitais</span></li>
         <li><span>Fidelização de clientes</span></li>
-        <li><span>gestão de Relacionamento com o Cliente (CRM)</span></li>
-        <li><span>Mdoelo enxuto</span></li>
+        <li><span>Gestão de Relacionamento com o Cliente (CRM)</span></li>
+        <li><span>Modelo enxuto</span></li>
         <li><span>Cases</span></li>
         <li><span>Exercícios na prática</span></li>
       </ul>
@@ -331,9 +331,6 @@ export default {
     .image-right {
       padding-top: 1rem;
       padding-bottom: 1rem;
-      img {
-        margin-left: 40px;
-      }
     }
   }
 </style>
