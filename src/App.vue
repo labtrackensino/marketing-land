@@ -118,7 +118,7 @@
         <b-col>
           <div class="citacao">
             <p>Mas eu tenho a sensação de que posso te ajudar ainda mais, então quero te fazer um convite!</p>
-            <p>Vem conversar comigo ao vivo no evento <b class="text-danger">Impulsione seu negócio em 4 passos</b>, que vai acontecer no dia <b class="text-danger">04/03</b> às <b class="text-danger">20h</b>.</p>
+            <p>Vem conversar comigo ao vivo no evento <b class="text-danger">Impulsione seu negócio em 4 passos</b>, que vai acontecer no dia <b class="text-danger">04/03</b> às <b class="text-danger">20h</b> online.</p>
             <p>Nesse dia eu vou falar um pouco sobre as estratégias qeu te falei aqui e vou te mostrar na prática como executar algumas delas, você vai ver o quanto é simples faturar mais online.</p>
           </div>
         </b-col>
